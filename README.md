@@ -1,4 +1,4 @@
-# Lenguajes de Programación - Proyecto de Ejercicios
+# Lenguajes de Programación - Examen 1
 
 Este proyecto contiene la implementación de varios ejercicios relacionados con lenguajes de programación. Cada pregunta está organizada en su propio directorio con implementaciones completas y pruebas unitarias.
 
