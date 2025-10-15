@@ -1,0 +1,1 @@
+from sys import*;from math import*;n=int(argv[1]);s=5**.5;print(round(((1+s)/2)**(int(log2(n*n*(n*n-1)/12))+1)/s))
