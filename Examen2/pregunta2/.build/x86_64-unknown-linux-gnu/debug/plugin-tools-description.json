@@ -1,0 +1,759 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.xctest",
+      "packagePath" : "/home/oem/Lenguajes/Examen2/pregunta2",
+      "productName" : "pregunta2PackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "pregunta2PackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.pregunta2-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "fileList" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources",
+      "importPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/expression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/processor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "pregunta2",
+      "moduleOutputPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule",
+      "objects" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "pregunta2_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/expression.swift",
+        "/home/oem/Lenguajes/Examen2/pregunta2/main.swift",
+        "/home/oem/Lenguajes/Examen2/pregunta2/processor.swift"
+      ],
+      "tempsPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.pregunta2PackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "fileList" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources",
+      "importPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "pregunta2PackageDiscoveredTests",
+      "moduleOutputPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/include/pregunta2PackageDiscoveredTests-Swift.h",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift"
+      ],
+      "tempsPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "fileList" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources",
+      "importPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "pregunta2PackageTests",
+      "moduleOutputPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule",
+      "objects" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/include/pregunta2PackageTests-Swift.h",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.pregunta2Tests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "fileList" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources",
+      "importPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "pregunta2Tests",
+      "moduleOutputPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule",
+      "objects" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/oem/Lenguajes/Examen2/pregunta2/tests.swift"
+      ],
+      "tempsPath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "pregunta2" : [
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "-module-name",
+      "pregunta2",
+      "-c",
+      "/home/oem/Lenguajes/Examen2/pregunta2/expression.swift",
+      "/home/oem/Lenguajes/Examen2/pregunta2/main.swift",
+      "/home/oem/Lenguajes/Examen2/pregunta2/processor.swift",
+      "-I",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "pregunta2_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc"
+    ],
+    "pregunta2PackageDiscoveredTests" : [
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "-module-name",
+      "pregunta2PackageDiscoveredTests",
+      "-c",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift",
+      "-I",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/include/pregunta2PackageDiscoveredTests-Swift.h",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc"
+    ],
+    "pregunta2PackageTests" : [
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "-module-name",
+      "pregunta2PackageTests",
+      "-c",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift",
+      "-I",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/include/pregunta2PackageTests-Swift.h",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc"
+    ],
+    "pregunta2Tests" : [
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc",
+      "-module-name",
+      "pregunta2Tests",
+      "-c",
+      "/home/oem/Lenguajes/Examen2/pregunta2/tests.swift",
+      "-I",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "pregunta2" : [
+
+    ],
+    "pregunta2PackageDiscoveredTests" : [
+      "pregunta2Tests",
+      "pregunta2"
+    ],
+    "pregunta2PackageTests" : [
+      "pregunta2PackageDiscoveredTests",
+      "pregunta2Tests",
+      "pregunta2"
+    ],
+    "pregunta2Tests" : [
+      "pregunta2"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/expression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/processor.swift"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources"
+    },
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList"
+    },
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources"
+    },
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources"
+    },
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2PackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/pregunta2PackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/pregunta2Tests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList"
+    },
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/Lenguajes/Examen2/pregunta2/tests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources"
+    },
+    "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"
+    }
+  }
+}

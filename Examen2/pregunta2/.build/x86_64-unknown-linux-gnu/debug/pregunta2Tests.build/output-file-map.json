@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/master.swiftdeps"
+  },
+  "/home/oem/Lenguajes/Examen2/pregunta2/tests.swift": {
+    "dependencies": "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.d",
+    "object": "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o",
+    "swiftmodule": "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests~partial.swiftmodule",
+    "swift-dependencies": "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swiftdeps",
+    "diagnostics": "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.dia"
+  }
+}

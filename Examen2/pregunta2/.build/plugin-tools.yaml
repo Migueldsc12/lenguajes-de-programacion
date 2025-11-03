@@ -1,0 +1,180 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<pregunta2-x86_64-unknown-linux-gnu-debug.exe>","<pregunta2-x86_64-unknown-linux-gnu-debug.module>"]
+  "pregunta2-x86_64-unknown-linux-gnu-debug.exe": ["<pregunta2-x86_64-unknown-linux-gnu-debug.exe>"]
+  "pregunta2-x86_64-unknown-linux-gnu-debug.module": ["<pregunta2-x86_64-unknown-linux-gnu-debug.module>"]
+  "pregunta2PackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module": ["<pregunta2PackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module>"]
+  "pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.module": ["<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.module>"]
+  "pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.test": ["<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.test>"]
+  "pregunta2Tests-x86_64-unknown-linux-gnu-debug.module": ["<pregunta2Tests-x86_64-unknown-linux-gnu-debug.module>"]
+  "test": ["<pregunta2-x86_64-unknown-linux-gnu-debug.exe>","<pregunta2-x86_64-unknown-linux-gnu-debug.module>","<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.test>","<pregunta2Tests-x86_64-unknown-linux-gnu-debug.module>"]
+default: "main"
+nodes:
+  "/home/oem/Lenguajes/Examen2/pregunta2/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o"]
+    description: "Wrapping AST for pregunta2 for debugging"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-modulewrap","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule","-o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/oem/Lenguajes/Examen2/pregunta2/expression.swift","/home/oem/Lenguajes/Examen2/pregunta2/main.swift","/home/oem/Lenguajes/Examen2/pregunta2/processor.swift"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources"]
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources"
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList"
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2PackageDiscoveredTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2PackageDiscoveredTests.swiftmodule.o"]
+    description: "Wrapping AST for pregunta2PackageDiscoveredTests for debugging"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-modulewrap","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule","-o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2PackageDiscoveredTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources"]
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources"
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift":
+    tool: test-discovery-tool
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift"]
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/pregunta2PackageTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/pregunta2PackageTests.swiftmodule.o"]
+    description: "Wrapping AST for pregunta2PackageTests for debugging"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-modulewrap","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule","-o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/pregunta2PackageTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources"]
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources"
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift":
+    tool: test-entry-point-tool
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift"]
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2PackageDiscoveredTests.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/pregunta2PackageTests.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/pregunta2Tests.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList"
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/pregunta2Tests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/pregunta2Tests.swiftmodule.o"]
+    description: "Wrapping AST for pregunta2Tests for debugging"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-modulewrap","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule","-o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/pregunta2Tests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/oem/Lenguajes/Examen2/pregunta2/tests.swift"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources"]
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources"
+
+  "/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt"
+
+  "<pregunta2-x86_64-unknown-linux-gnu-debug.exe>":
+    tool: phony
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2"]
+    outputs: ["<pregunta2-x86_64-unknown-linux-gnu-debug.exe>"]
+
+  "<pregunta2-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule"]
+    outputs: ["<pregunta2-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<pregunta2PackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"]
+    outputs: ["<pregunta2PackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule"]
+    outputs: ["<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.test>":
+    tool: phony
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.xctest"]
+    outputs: ["<pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.test>"]
+
+  "<pregunta2Tests-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule"]
+    outputs: ["<pregunta2Tests-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "C.pregunta2-x86_64-unknown-linux-gnu-debug.exe":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/pregunta2"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-L","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug","-o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2","-module-name","pregunta2","-emit-executable","-Xlinker","--defsym","-Xlinker","main=pregunta2_main","-Xlinker","-rpath=$ORIGIN","@/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-g"]
+
+  "C.pregunta2-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/expression.swift","/home/oem/Lenguajes/Examen2/pregunta2/main.swift","/home/oem/Lenguajes/Examen2/pregunta2/processor.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule"]
+    description: "Compiling Swift Module 'pregunta2' (3 sources)"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-module-name","pregunta2","-emit-dependencies","-emit-module","-emit-module-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2.swiftmodule","-output-file-map","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/output-file-map.json","-incremental","-c","@/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/sources","-I","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","pregunta2_main","-color-diagnostics","-swift-version","5","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.pregunta2PackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/all-discovered-tests.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.derived/pregunta2Tests.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule"]
+    description: "Compiling Swift Module 'pregunta2PackageDiscoveredTests' (2 sources)"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-module-name","pregunta2PackageDiscoveredTests","-emit-dependencies","-emit-module","-emit-module-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule","-output-file-map","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/sources","-I","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/include/pregunta2PackageDiscoveredTests-Swift.h","-color-diagnostics","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.derived/runner.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageDiscoveredTests.swiftmodule","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'pregunta2PackageTests' (1 sources)"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-module-name","pregunta2PackageTests","-emit-dependencies","-emit-module","-emit-module-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2PackageTests.swiftmodule","-output-file-map","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/sources","-I","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/include/pregunta2PackageTests-Swift.h","-color-diagnostics","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.pregunta2PackageTests-x86_64-unknown-linux-gnu-debug.test":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/expression.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/main.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/pregunta2.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2.build/processor.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2PackageDiscoveredTests.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageDiscoveredTests.build/pregunta2Tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/pregunta2PackageTests.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.build/runner.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/pregunta2Tests.swiftmodule.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.xctest"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.xctest"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-L","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug","-o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.xctest","-module-name","pregunta2PackageTests","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2PackageTests.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-g"]
+
+  "C.pregunta2Tests-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/tests.swift","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/swift-version--1C8424EB624FB059.txt","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources"]
+    outputs: ["/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/tests.swift.o","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule"]
+    description: "Compiling Swift Module 'pregunta2Tests' (1 sources)"
+    args: ["/home/oem/.local/share/swiftly/toolchains/6.2.0/usr/bin/swiftc","-module-name","pregunta2Tests","-emit-dependencies","-emit-module","-emit-module-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules/pregunta2Tests.swiftmodule","-output-file-map","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/pregunta2Tests.build/sources","-I","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/home/oem/Lenguajes/Examen2/pregunta2/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-swift-version","5","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/oem/Lenguajes/Examen2/pregunta2/","/home/oem/Lenguajes/Examen2/pregunta2/","/home/oem/Lenguajes/Examen2/pregunta2/Package.swift","/home/oem/Lenguajes/Examen2/pregunta2/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
