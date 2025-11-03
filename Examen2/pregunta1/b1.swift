@@ -1,7 +1,6 @@
 import Foundation
 
 func f(_ n: Int) -> Int {
-    // Usamos el operador ternario para una implementación concisa
     return n % 2 == 0 ? (n / 2) : (3 * n + 1)
 }
 
@@ -32,7 +31,7 @@ func count(_ n: Int) -> Int {
 
 guard CommandLine.arguments.count > 1 else {
     print("Error: No se proporcionó un número.")
-    print("Uso: swift tu_script.swift <numero>")
+    print("Uso: swift b1.swift <numero>")
     exit(1) 
 }
 
