@@ -1,3 +1,7 @@
+# Parte teorica
+En el pdf encontrara el link al video de la primera pregunta y la parte 1 (teorica) de la segunda pregunta.
+main.py es el programa de la parte 2
+
 # Simulador de Manejo de Memoria para Tipos de Datos
 
 Este proyecto es una herramienta en Python que simula cómo se organizan los tipos de datos en memoria. Permite definir tipos atómicos, estructuras y uniones, y calcular su **tamaño**, **alineación** y **desperdicio (padding)** bajo diferentes estrategias de empaquetado.
